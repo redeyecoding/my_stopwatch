@@ -1,6 +1,10 @@
 import time
 
-def stopwatch(func):    
+def stopwatch(func):
+    """This stopwatch function will time how long it takes for a given function to run once used as a decorator.
+        It will also add an additional feature to your fuction by giving it the ability to accept multple arguments if it 
+        accepts one by default.
+    """
     def timer_wrapper(*arg):
         try:
             t1 = time.time()
