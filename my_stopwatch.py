@@ -1,6 +1,6 @@
 import time
 
-def my_timer(func):    
+def stopwatch(func):    
     def timer_wrapper(*arg):
         try:
             t1 = time.time()
@@ -13,7 +13,7 @@ def my_timer(func):
         return       
     return timer_wrapper
 
-@my_timer
+@stopwatch
 def tester():
     time.sleep(5)
     print('testerFunction')
