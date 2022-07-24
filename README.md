@@ -10,5 +10,5 @@ Time how long it takes for a given function to run.
      ``` 
       @stopwatch  
       def multiply_stuff_by_3(*num):  
-              lc1 = [x * 3 for x in num]  
+              lc1 = [x * 3 for x in range(2,10)]  
               return lc1```
