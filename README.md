@@ -12,7 +12,7 @@ Time how long it takes for a given function to run.
       def multiply_stuff_by_3(*num):  
               lc1 = [x * 3 for x in range(2,10)]  
               return lc1```
-3. If you would like to verify that the stopwatch works, just put your function to **sleep**:  
+3. If you would like to verify that the stopwatch works, just put your function to **sleep** for a few seconds.:  
   example:  
     ```
     @stopwatch  
