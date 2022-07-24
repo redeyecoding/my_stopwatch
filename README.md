@@ -7,7 +7,8 @@ Time how long it takes for a given function to run.
 2. Decorate the function you would like to time:
     example:  
       
-     ``` @stopwatch  
+     ``` 
+      @stopwatch  
       def adding_stuff_2(*num):  
               lc1 = [x * 3 for x in num]  
               return lc1```
