@@ -1,9 +1,9 @@
 # my_stopwatch
 Time how long it takes for a given function to run.
 
-1. Import the "my_stopwatch" module into your desired module.  
+1. Import the **"my_stopwatch"** module into your desired module.  
     example:     
-            from my_stopwatch import stopwatch
+            _from_ my_stopwatch _import_ stopwatch
 2. Decorate the function you would like to time:
     example:  
       
