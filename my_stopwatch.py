@@ -5,12 +5,12 @@ def stopwatch(func):
         try:
             t1 = time.time()
             print(f"Time Started")
-            func(4)
+            function_results = func(arg)
             t2 = round(time.time() - t1,2)
             print(f"Function {func.__name__} finished running in {t2} seconds.")
         except BaseException as err:
             print(f"{err}")
-        return       
+        return function_results       
     return timer_wrapper
 
 @stopwatch
